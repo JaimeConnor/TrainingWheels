@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B995ED197D889600F580DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B995EC197D889600F580DE /* Foundation.framework */; };
+		08B995EF197D889600F580DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B995EE197D889600F580DE /* CoreGraphics.framework */; };
+		08B995F1197D889600F580DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B995F0197D889600F580DE /* UIKit.framework */; };
+		08B995F7197D889600F580DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08B995F5197D889600F580DE /* InfoPlist.strings */; };
+		08B995F9197D889600F580DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B995F8197D889600F580DE /* main.m */; };
+		08B995FD197D889600F580DE /* PREAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B995FC197D889600F580DE /* PREAppDelegate.m */; };
+		08B99600197D889600F580DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B995FE197D889600F580DE /* Main.storyboard */; };
+		08B99603197D889600F580DE /* PREViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B99602197D889600F580DE /* PREViewController.m */; };
+		08B99605197D889600F580DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B99604197D889600F580DE /* Images.xcassets */; };
+		08B9960C197D889600F580DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B9960B197D889600F580DE /* XCTest.framework */; };
+		08B9960D197D889600F580DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B995EC197D889600F580DE /* Foundation.framework */; };
+		08B9960E197D889600F580DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B995F0197D889600F580DE /* UIKit.framework */; };
+		08B99616197D889600F580DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08B99614197D889600F580DE /* InfoPlist.strings */; };
+		08B99618197D889600F580DE /* Simple_Form_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B99617197D889600F580DE /* Simple_Form_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B9960F197D889600F580DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08B995E1197D889600F580DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08B995E8197D889600F580DE;
+			remoteInfo = "Simple Form App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B995E9197D889600F580DE /* Simple Form App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Form App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B995EC197D889600F580DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08B995EE197D889600F580DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08B995F0197D889600F580DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08B995F4197D889600F580DE /* Simple Form App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Form App-Info.plist"; sourceTree = "<group>"; };
+		08B995F6197D889600F580DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08B995F8197D889600F580DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08B995FA197D889600F580DE /* Simple Form App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Form App-Prefix.pch"; sourceTree = "<group>"; };
+		08B995FB197D889600F580DE /* PREAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PREAppDelegate.h; sourceTree = "<group>"; };
+		08B995FC197D889600F580DE /* PREAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PREAppDelegate.m; sourceTree = "<group>"; };
+		08B995FF197D889600F580DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08B99601197D889600F580DE /* PREViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PREViewController.h; sourceTree = "<group>"; };
+		08B99602197D889600F580DE /* PREViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PREViewController.m; sourceTree = "<group>"; };
+		08B99604197D889600F580DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08B9960A197D889600F580DE /* Simple Form AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Form AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B9960B197D889600F580DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		08B99613197D889600F580DE /* Simple Form AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Form AppTests-Info.plist"; sourceTree = "<group>"; };
+		08B99615197D889600F580DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08B99617197D889600F580DE /* Simple_Form_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Form_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B995E6197D889600F580DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B995EF197D889600F580DE /* CoreGraphics.framework in Frameworks */,
+				08B995F1197D889600F580DE /* UIKit.framework in Frameworks */,
+				08B995ED197D889600F580DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B99607197D889600F580DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B9960C197D889600F580DE /* XCTest.framework in Frameworks */,
+				08B9960E197D889600F580DE /* UIKit.framework in Frameworks */,
+				08B9960D197D889600F580DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B995E0197D889600F580DE = {
+			isa = PBXGroup;
+			children = (
+				08B995F2197D889600F580DE /* Simple Form App */,
+				08B99611197D889600F580DE /* Simple Form AppTests */,
+				08B995EB197D889600F580DE /* Frameworks */,
+				08B995EA197D889600F580DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08B995EA197D889600F580DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08B995E9197D889600F580DE /* Simple Form App.app */,
+				08B9960A197D889600F580DE /* Simple Form AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08B995EB197D889600F580DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B995EC197D889600F580DE /* Foundation.framework */,
+				08B995EE197D889600F580DE /* CoreGraphics.framework */,
+				08B995F0197D889600F580DE /* UIKit.framework */,
+				08B9960B197D889600F580DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08B995F2197D889600F580DE /* Simple Form App */ = {
+			isa = PBXGroup;
+			children = (
+				08B995FB197D889600F580DE /* PREAppDelegate.h */,
+				08B995FC197D889600F580DE /* PREAppDelegate.m */,
+				08B995FE197D889600F580DE /* Main.storyboard */,
+				08B99601197D889600F580DE /* PREViewController.h */,
+				08B99602197D889600F580DE /* PREViewController.m */,
+				08B99604197D889600F580DE /* Images.xcassets */,
+				08B995F3197D889600F580DE /* Supporting Files */,
+			);
+			path = "Simple Form App";
+			sourceTree = "<group>";
+		};
+		08B995F3197D889600F580DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B995F4197D889600F580DE /* Simple Form App-Info.plist */,
+				08B995F5197D889600F580DE /* InfoPlist.strings */,
+				08B995F8197D889600F580DE /* main.m */,
+				08B995FA197D889600F580DE /* Simple Form App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08B99611197D889600F580DE /* Simple Form AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				08B99617197D889600F580DE /* Simple_Form_AppTests.m */,
+				08B99612197D889600F580DE /* Supporting Files */,
+			);
+			path = "Simple Form AppTests";
+			sourceTree = "<group>";
+		};
+		08B99612197D889600F580DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B99613197D889600F580DE /* Simple Form AppTests-Info.plist */,
+				08B99614197D889600F580DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08B995E8197D889600F580DE /* Simple Form App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B9961B197D889600F580DE /* Build configuration list for PBXNativeTarget "Simple Form App" */;
+			buildPhases = (
+				08B995E5197D889600F580DE /* Sources */,
+				08B995E6197D889600F580DE /* Frameworks */,
+				08B995E7197D889600F580DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Form App";
+			productName = "Simple Form App";
+			productReference = 08B995E9197D889600F580DE /* Simple Form App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08B99609197D889600F580DE /* Simple Form AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B9961E197D889600F580DE /* Build configuration list for PBXNativeTarget "Simple Form AppTests" */;
+			buildPhases = (
+				08B99606197D889600F580DE /* Sources */,
+				08B99607197D889600F580DE /* Frameworks */,
+				08B99608197D889600F580DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08B99610197D889600F580DE /* PBXTargetDependency */,
+			);
+			name = "Simple Form AppTests";
+			productName = "Simple Form AppTests";
+			productReference = 08B9960A197D889600F580DE /* Simple Form AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08B995E1197D889600F580DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jaime Connor";
+				TargetAttributes = {
+					08B99609197D889600F580DE = {
+						TestTargetID = 08B995E8197D889600F580DE;
+					};
+				};
+			};
+			buildConfigurationList = 08B995E4197D889600F580DE /* Build configuration list for PBXProject "Simple Form App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08B995E0197D889600F580DE;
+			productRefGroup = 08B995EA197D889600F580DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08B995E8197D889600F580DE /* Simple Form App */,
+				08B99609197D889600F580DE /* Simple Form AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08B995E7197D889600F580DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B99605197D889600F580DE /* Images.xcassets in Resources */,
+				08B995F7197D889600F580DE /* InfoPlist.strings in Resources */,
+				08B99600197D889600F580DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B99608197D889600F580DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B99616197D889600F580DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B995E5197D889600F580DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B995FD197D889600F580DE /* PREAppDelegate.m in Sources */,
+				08B99603197D889600F580DE /* PREViewController.m in Sources */,
+				08B995F9197D889600F580DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B99606197D889600F580DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B99618197D889600F580DE /* Simple_Form_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08B99610197D889600F580DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08B995E8197D889600F580DE /* Simple Form App */;
+			targetProxy = 08B9960F197D889600F580DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08B995F5197D889600F580DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B995F6197D889600F580DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08B995FE197D889600F580DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B995FF197D889600F580DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08B99614197D889600F580DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B99615197D889600F580DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08B99619197D889600F580DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08B9961A197D889600F580DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08B9961C197D889600F580DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Form App/Simple Form App-Prefix.pch";
+				INFOPLIST_FILE = "Simple Form App/Simple Form App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08B9961D197D889600F580DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Form App/Simple Form App-Prefix.pch";
+				INFOPLIST_FILE = "Simple Form App/Simple Form App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		08B9961F197D889600F580DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Form App.app/Simple Form App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Form App/Simple Form App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Simple Form AppTests/Simple Form AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		08B99620197D889600F580DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Form App.app/Simple Form App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Form App/Simple Form App-Prefix.pch";
+				INFOPLIST_FILE = "Simple Form AppTests/Simple Form AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B995E4197D889600F580DE /* Build configuration list for PBXProject "Simple Form App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B99619197D889600F580DE /* Debug */,
+				08B9961A197D889600F580DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B9961B197D889600F580DE /* Build configuration list for PBXNativeTarget "Simple Form App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B9961C197D889600F580DE /* Debug */,
+				08B9961D197D889600F580DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08B9961E197D889600F580DE /* Build configuration list for PBXNativeTarget "Simple Form AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B9961F197D889600F580DE /* Debug */,
+				08B99620197D889600F580DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08B995E1197D889600F580DE /* Project object */;
+}
